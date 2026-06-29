@@ -4,7 +4,7 @@ const path = require("path");
 const src = path.join(__dirname, "skills");
 
 // Walk up from node_modules to find the project root
-const projectRoot = path.resolve(__dirname, "../../..");
+const projectRoot = process.cwd();
 
 const dest = path.join(projectRoot, "skills");
 
