@@ -1,0 +1,13 @@
+{
+  "name": "react-claude-skills",
+  "version": "1.0.0",
+  "description": "Claude Code skills for React / React Native — Redux Toolkit + Bun",
+  "keywords": ["claude", "claude-code", "skills", "react", "react-native", "redux-toolkit"],
+  "files": [
+    "skills/",
+    "README.md"
+  ],
+  "scripts": {
+    "postinstall": "node install.js"
+  }
+}
